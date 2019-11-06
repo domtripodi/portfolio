@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
-import {Navbar, Nav, Container, Row, Col} from 'react-bootstrap'
+import React from 'react';
 import PageHeading from './PageHeading';
 
-class About extends Component {
+class About extends React.Component {
     
     render() {
         return (

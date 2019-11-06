@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import '../css/NavigationBar.css'
 
-class NavigationBar extends Component {
+class NavigationBar extends React.Component {
     
     render() {
         return (

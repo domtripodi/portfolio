@@ -1,10 +1,8 @@
-import React,{component} from 'react'
-import Image from 'react-bootstrap/Image';
+import React from 'react'
 import '../css/Gallery.css'
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import Carousel from './Carousel';
 import PageHeading from './PageHeading'
-import bladeOfChaosHighShadedImage from '../../images/Unreal/UE_presentationShot1.png'
 import imageBladeOne from '../../images/Maya/blade/bladeOfChaos_High_Shaded.png'
 import imageBladeTwo from '../../images/Maya/blade/bladeOfChaos_High_WireFrame.png'
 import imageBladeThree from '../../images/Maya/blade/bladeOfChaos_Low_Shaded.png'
