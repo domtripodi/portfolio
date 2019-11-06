@@ -1,0 +1,20 @@
+.navItemStyling {
+    color: white;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    font-size:16px;
+    font-weight: 400;
+}
+
+.navBar-inactive {
+    text-decoration: none;
+}
+
+.navItemStyling:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.navItemStyling::after {
+    color:blue;
+}

@@ -1,0 +1,26 @@
+import React, { Component } from 'react';
+import './App.css';
+import NavigationBar from './components/js/NavigationBar';
+import Gallery from './components/js/Gallery';
+import About from './components/js/About';
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Router>
+        <NavigationBar/>
+          <Switch>
+            <Redirect from="/" to="/gallery" exact/>
+            <Route path="/gallery" component={Gallery}/>
+            <Route path="/about" component={About}/>
+          </Switch>
+        </Router>
+        
+      </div>
+    );
+  }
+}
+
+export default App;

@@ -1,0 +1,14 @@
+.carousel-fade .carousel-item {
+    transition-duration: .8s !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    cursor: pointer;
+}
+
+.carousel-caption {
+    text-align: right !important;
+    bottom: 10px !important;
+    margin-right: -30px;
+    font-size: 2vw;
+}
