@@ -13,7 +13,7 @@ class App extends Component {
         <Router>
         <NavigationBar/>
           <Switch>
-            <Redirect from="/portfolio" to="/portfolio/gallery" exact/>
+            <Redirect from="/portfolio/" to="/portfolio/gallery" exact/>
             <Route path="/portfolio/gallery" component={Gallery}/>
             <Route path="/portfolio/about" component={About}/>
             <Route path="/portfolio/contact" component={Contact}/>
