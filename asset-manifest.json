@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c32aea72.css",
   "main.css.map": "static/css/main.c32aea72.css.map",
-  "main.js": "static/js/main.c6d90c7e.js",
-  "main.js.map": "static/js/main.c6d90c7e.js.map",
+  "main.js": "static/js/main.14946aba.js",
+  "main.js.map": "static/js/main.14946aba.js.map",
   "static/media/ambientOcclusion.png": "static/media/ambientOcclusion.f46cf32f.png",
   "static/media/barrelHighPoly.png": "static/media/barrelHighPoly.9e885861.png",
   "static/media/barrelHighPolyMesh.png": "static/media/barrelHighPolyMesh.8da91176.png",
@@ -26,6 +26,7 @@
   "static/media/bladesOfChaos_Rough.png": "static/media/bladesOfChaos_Rough.c3535d3e.png",
   "static/media/bladesOfChaos_ambientOclusion.png": "static/media/bladesOfChaos_ambientOclusion.ff86fd04.png",
   "static/media/bladesOfChaos_normalMap.png": "static/media/bladesOfChaos_normalMap.9d8f1259.png",
+  "static/media/linkedinImage.jpeg": "static/media/linkedinImage.e4491eee.jpeg",
   "static/media/lowPolyMonitorBack.png": "static/media/lowPolyMonitorBack.a6d629f6.png",
   "static/media/lowPolyMonitorBackMesh.png": "static/media/lowPolyMonitorBackMesh.35ca62b5.png",
   "static/media/lowPolyMonitorFront.png": "static/media/lowPolyMonitorFront.badda36f.png",
