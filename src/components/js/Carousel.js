@@ -1,24 +1,59 @@
 import React from "react";
-import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask} from
+import { MDBCarousel, MDBCarouselInner} from
 "mdbreact";
 import '../css/Carousel.css'
 import {Image} from 'react-bootstrap'
+import CarouselItem from "./CarouselItem";
 
 
 class CarouselPage extends React.Component {
+    componentDidMount() {
+      console.log(this.props.items)
+      this.props.items.map((item, i) => {
+        console.log(item)
+      })
+      
+    }
+
+    carouselItems = () => {
+
+    }
+
     render() {
+      let carouselItems = [];
+      {this.props.items.map((item, i) => {
+        carouselItems.push(<CarouselItem key={i} item={item}/>)
+      })}
         return (
             <div id="carousel-container">
               <MDBCarousel
               activeItem={1}
-              length={4}
+              length={this.props.length}
               showControls={true}
               showIndicators={true}
               interval="6000"
               className="z-depth-1"
+              onHoverStop={true}
             >
               <MDBCarouselInner>
-                <MDBCarouselItem itemId="1">
+                {carouselItems}
+              </MDBCarouselInner>
+                
+              {/* <MDBCarouselItem itemId="1">
+                  <MDBView>
+                    <Image
+                      className="d-block w-100"
+                      src={this.props.unrealImageOne}
+                      alt="First slide"
+                      thumbnail
+                    />
+                  <MDBMask overlay="black-light" />
+                  </MDBView>
+                  <MDBCarouselCaption>
+                    <p>{this.props.captionList.unreal}</p>
+                  </MDBCarouselCaption>
+                </MDBCarouselItem>
+                <MDBCarouselItem itemId="2">
                   <MDBView>
                     <Image
                       className="d-block w-100"
@@ -32,7 +67,7 @@ class CarouselPage extends React.Component {
                     <p>{this.props.captionList.one}</p>
                   </MDBCarouselCaption>
                 </MDBCarouselItem>
-                <MDBCarouselItem itemId="2">
+                <MDBCarouselItem itemId="3">
                   <MDBView>
                     <Image
                       className="d-block w-100"
@@ -46,7 +81,7 @@ class CarouselPage extends React.Component {
                     <p>{this.props.captionList.two}</p>
                   </MDBCarouselCaption>
                 </MDBCarouselItem>
-                <MDBCarouselItem itemId="3">
+                <MDBCarouselItem itemId="4">
                   <MDBView>
                     <Image
                       className="d-block w-100"
@@ -60,7 +95,7 @@ class CarouselPage extends React.Component {
                     <p>{this.props.captionList.three}</p>
                   </MDBCarouselCaption>
                 </MDBCarouselItem>
-                <MDBCarouselItem itemId="4">
+                <MDBCarouselItem itemId="5">
                   <MDBView>
                     <Image
                       className="d-block w-100"
@@ -73,8 +108,8 @@ class CarouselPage extends React.Component {
                   <MDBCarouselCaption>
                     <p>{this.props.captionList.four}</p>
                   </MDBCarouselCaption>
-                </MDBCarouselItem>
-              </MDBCarouselInner>
+                </MDBCarouselItem> */}
+              {/* </MDBCarouselInner> */}
             </MDBCarousel>
             </div>
           );
