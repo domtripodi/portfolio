@@ -215,7 +215,7 @@ class Gallery extends React.Component {
                                 I baked a normal map in Maya and exported an AO map through the Arnold settings in Maya. 
                                 I then created the color, roughness and metal maps in Photoshop. 
                                 <br/><br/>
-                                The maps applied to the model can be seen in the Unreal Render images to the left.
+                                The maps applied to the model can be seen via clicking the button below.
                             </p>
                         </Row>
                         <Row>
@@ -275,8 +275,8 @@ class Gallery extends React.Component {
                                 This is a very simple model I made using Maya. I only created the low and high
                                 poly version of the barrel as it was just a small fun asset! 
                                 <br/><br/> 
-                                I have created a couple of the maps which can be viewed below, none have been 
-                                applied yet. Very excited though.
+                                I have created a couple of the maps which can be viewed below, more details 
+                                are to come for future iterations.
                             </p>
                         </Row>
                         <Row>

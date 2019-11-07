@@ -4,6 +4,9 @@ import AboutHeading from './AboutHeading';
 import AboutSubtext from './AboutSubtext';
 import { Container, Col, Row, Image } from 'react-bootstrap';
 import photoOfMe from '../../images/linkedinImage.jpeg'
+import mayaLogo from '../../images/logos/maya_logo.png'
+import photoshopLogo from '../../images/logos/photoshop_logo.jpeg'
+import unrealLogo from '../../images/logos/unreal_logo.png'
 
 class About extends React.Component {
     
@@ -30,9 +33,32 @@ class About extends React.Component {
                 6 month period whilst balancing other courses also. It has been an exciting prospect to
                 understand the details and particularities found in the Gaming industry - only the tip of the iceburg it seems.
                 This will not be the last time I create a Game Asset, however, the forcasted date for the next 
-                it yet to be determined. Feel free to contact me by going to the contact page in the top right corner. 
+                is yet to be determined. Feel free to contact me by going to the contact page in the top right corner. 
                 I am always up for a chat."/>
 
+                <AboutHeading heading="Software Proficiency"/>
+                <Row>
+                    <Col>
+                        <Image style={{width: 100}} src={mayaLogo} />
+                    </Col>
+                    <Col>
+                        <Image style={{width: 100}} src={photoshopLogo} />
+                    </Col>
+                    <Col>
+                        <Image style={{width: 100}} src={unrealLogo} />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p>Novice</p>
+                    </Col>
+                    <Col>
+                        <p>Proficient</p>
+                    </Col>
+                    <Col>
+                        <p>Amateur</p>
+                    </Col>
+                </Row>
                 
             </Container>
         )
