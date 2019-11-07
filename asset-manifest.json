@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c32aea72.css",
   "main.css.map": "static/css/main.c32aea72.css.map",
-  "main.js": "static/js/main.2ea4456f.js",
-  "main.js.map": "static/js/main.2ea4456f.js.map",
+  "main.js": "static/js/main.fc8515b5.js",
+  "main.js.map": "static/js/main.fc8515b5.js.map",
   "static/media/ambientOcclusion.png": "static/media/ambientOcclusion.f46cf32f.png",
   "static/media/barrelHighPoly.png": "static/media/barrelHighPoly.9e885861.png",
   "static/media/barrelHighPolyMesh.png": "static/media/barrelHighPolyMesh.8da91176.png",
@@ -31,6 +31,9 @@
   "static/media/lowPolyMonitorBackMesh.png": "static/media/lowPolyMonitorBackMesh.35ca62b5.png",
   "static/media/lowPolyMonitorFront.png": "static/media/lowPolyMonitorFront.badda36f.png",
   "static/media/lowPolyMonitorFrontMesh.png": "static/media/lowPolyMonitorFrontMesh.b1e760ca.png",
+  "static/media/maya_logo.png": "static/media/maya_logo.7a8f540a.png",
   "static/media/monitorBack.png": "static/media/monitorBack.f7d39f10.png",
-  "static/media/monitorFront.png": "static/media/monitorFront.cd03a73a.png"
+  "static/media/monitorFront.png": "static/media/monitorFront.cd03a73a.png",
+  "static/media/photoshop_logo.jpeg": "static/media/photoshop_logo.5491f487.jpeg",
+  "static/media/unreal_logo.png": "static/media/unreal_logo.85766358.png"
 }
